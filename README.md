@@ -7,7 +7,7 @@ wordpressのサーバーのみで実行
 - 参考サイト
 https://www.netassist.ne.jp/techblog/13744/
 
-- `winキー+R` で`drivers`と入力して実行する  
+- `winキー + R` で`drivers`と入力して実行する  
   - `C:\Windows\System32\drivers` が開かれる
 
 - `C:\Windows\System32\drivers\etc` 配下の `hosts` ファイルをターミナルからvscodeで開く  
