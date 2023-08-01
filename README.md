@@ -1,10 +1,10 @@
-# wordpress
-- wordpressのサーバーのみを実行
-- localhostでアクセス可能
+# リバースプロキシを利用したサーバー構築
+- wordpressとWebサーバーを構築
+- ドメインによって遷移するサーバーを切り替え
 
 ## 事前準備
-- vol.1ブランチをローカルにクローン  
-`git clone -b vol.1 git@github.com:inakuuun/create-vps.git`
+- vol.2ブランチをローカルにクローン  
+`git clone -b vol.2 git@github.com:inakuuun/create-vps.git`
 
 - クローンしたディレクトリへ移動  
 `cd create-vps`
@@ -18,7 +18,11 @@ create-vps
 ├── README.md
 ├── apache
 │   └── 000-default.conf
-└── compose.yml
+├── compose.yml
+├── nginx
+│   └── default.conf
+└── web
+    └── index.html
 ```
 
 ## wordpressのコンテナを起動 
@@ -32,6 +36,10 @@ create-vps
 ├── apache
 │   └── 000-default.conf
 ├── compose.yml
+├── nginx
+│   └── default.conf
+│── web
+│    └── index.html
 ├── data
 │   └── ssl_certs
 └── wordpress
@@ -59,4 +67,5 @@ create-vps
 ```
 
 ## 起動したwordpressにアクセス  
-- https://localhost
+- https://wordpress.example.com
+- https://nginx.example.com
