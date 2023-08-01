@@ -4,17 +4,17 @@
 
 ## 事前準備
 - リポジトリをローカルにクローン  
-`git clone git@github.com:inakuuun/create-vps.git`
+`git clone git@github.com:inakuuun/reverse-proxy-service.git`
 
 - クローンしたディレクトリへ移動  
-`cd create-vps`
+`cd reverse-proxy-service`
 
 - 移動できているか確認  
 `ls`
 
 - クローン後のディレクトリ階層
 ```
-create-vps
+reverse-proxy-service
 ├── README.md
 ├── apache
 │   └── 000-default.conf
@@ -31,7 +31,7 @@ create-vps
 
 - コンテナ起動後のディレクトリ階層  
 ```
-create-vps
+reverse-proxy-service
 ├── README.md
 ├── apache
 │   └── 000-default.conf
