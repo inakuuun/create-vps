@@ -1,6 +1,6 @@
 # リバースプロキシを利用したサーバー構築
 - wordpressとWebサーバーを構築
-- ドメインによって遷移するサーバーを切り替え
+- リクエストに応じたサーバーの選択
 
 ## 事前準備
 - vol.2ブランチをローカルにクローン  
@@ -66,6 +66,9 @@ create-vps
     └── xmlrpc.php
 ```
 
-## 起動したwordpressにアクセス  
+## 起動したサービスにアクセス  
 - https://wordpress.example.com
+![image](https://github.com/inakuuun/create-vps/assets/101713870/9331e00b-4ca7-48ac-9f0a-18a8ba0051c2)
+
 - https://nginx.example.com
+![image](https://github.com/inakuuun/create-vps/assets/101713870/015f1e33-3069-4dc9-be49-90d2094fb94e)
