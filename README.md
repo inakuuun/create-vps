@@ -54,5 +54,5 @@ create-vps
     └── xmlrpc.php
 ```
 
-## wordpressにアクセス  
+## 起動したwordpressにアクセス  
 - https://wordpress.example.com
