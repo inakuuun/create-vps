@@ -25,6 +25,19 @@ reverse-proxy-service
     └── index.html
 ```
 
+- hostsファイル情報の変更
+- WindowsのWSLを使用したDocker環境の場合
+  - 参考サイト
+  https://www.netassist.ne.jp/techblog/13744/
+  - `C:\Windows\System32\drivers\etc` 配下の `hosts` hostsファイルに下記を追記  
+    `127.0.0.1 wordpress.example.com`  
+    `127.0.0.1 nginx.example.com`  
+
+- linuxの場合
+  - `/etc/host`ファイルに下記を追記
+    `127.0.0.1 wordpress.example.com`  
+    `127.0.0.1 nginx.example.com`  
+
 ## wordpressのコンテナを起動 
 - コンテナを起動  
 `docker compose up -d --build`
