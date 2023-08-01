@@ -1,8 +1,9 @@
 # リバースプロキシを利用したサーバー構築
-- wordpressとWebサーバーを構築 
+- wordpressとWebサーバーを構築
+- ドメインによって遷移するサーバーを切り替え
 
 ## 事前準備
-- vol.1ブランチをローカルにクローン  
+- vol.2ブランチをローカルにクローン  
 `git clone -b vol.2 git@github.com:inakuuun/create-vps.git`
 
 - クローンしたディレクトリへ移動  
