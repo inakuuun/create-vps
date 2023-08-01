@@ -1,6 +1,6 @@
 # wordpress
 - wordpressのサーバーのみを実行
-- localhostでwordpressにアクセス可能
+- localhostでアクセス可能
 
 ## vol.1ブランチをローカルにクローン
 `git clone -b vol.1 git@github.com:inakuuun/create-vps.git`
