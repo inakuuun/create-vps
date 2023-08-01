@@ -2,11 +2,13 @@ services:
   https-portal:
     image: steveltn/https-portal:1
     ports:
+      # 80ポート番号の有無によってhttpsのみにするかどうかを選択できる
       - '80:80'
       - '443:443'
     environment:
       STAGE: 'local' # Don't use production until staging
-      DOMAINS: 'wordpress.example.com -> http://wordpress:8000'
+      # DOMAINS: 'wordpress.example.com -> http://wordpress:8000'
+      DOMAINS: 'localhost -> http://wordpress:8000'
     volumes:
       - ./data/ssl_certs:/var/lib/https-portal
   
