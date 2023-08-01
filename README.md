@@ -2,17 +2,30 @@
 - wordpressのサーバーのみを実行
 - localhostでアクセス可能
 
-## vol.1ブランチをローカルにクローン
+## 事前準備
+- vol.1ブランチをローカルにクローン  
 `git clone -b vol.1 git@github.com:inakuuun/create-vps.git`
 
-## wordpressのコンテナを起動 
-- 前に実行したときのコンテナがある場合はコンテナを削除  
-`docker compose down`
+- クローンしたディレクトリへ移動  
+`cd create-vps`
 
+- 移動できているか確認  
+`ls`
+
+- クローン後のディレクトリ階層
+```
+create-vps
+├── README.md
+├── apache
+│   └── 000-default.conf
+└── compose.yml
+```
+
+## wordpressのコンテナを起動 
 - コンテナを起動  
 `docker compose up -d --build`
 
-- コンテナ起動後のフォルダ階層  
+- コンテナ起動後のディレクトリ階層  
 ```
 create-vps
 ├── README.md
