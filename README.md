@@ -1,18 +1,9 @@
 # wordpress
-wordpressのサーバーのみで実行
+- wordpressのサーバーのみを実行
+- localhostでアクセス可能
 
 ## vol.1ブランチをローカルにクローン
 `git clone -b vol.1 git@github.com:inakuuun/create-vps.git`
-
-## hostsファイル情報の変更
-- 参考サイト
-https://www.netassist.ne.jp/techblog/13744/
-
-- `winキー`+`R` で`drivers`と入力して実行する  
-  - `C:\Windows\System32\drivers` が開かれる
-
-- `C:\Windows\System32\drivers\etc` 配下の `hosts` ファイルをターミナルからvscodeで開く  
-  - hostsファイルに `127.0.0.1 wordpress.example.com` を追記
 
 ## wordpressのコンテナを起動 
 - 前に実行したときのコンテナがある場合はコンテナを削除
