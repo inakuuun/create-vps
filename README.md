@@ -68,7 +68,35 @@ reverse-proxy-service
 
 ## 起動したサービスにアクセス  
 - https://wordpress.example.com
-![image](https://github.com/inakuuun/create-vps/assets/101713870/9331e00b-4ca7-48ac-9f0a-18a8ba0051c2)
+![image](https://github.com/inakuuun/reverse-proxy-service/assets/101713870/81d5f757-2c37-429d-ab1f-0d3b4b799343)
 
 - https://nginx.example.com
 ![image](https://github.com/inakuuun/create-vps/assets/101713870/015f1e33-3069-4dc9-be49-90d2094fb94e)
+
+## wordpressのdbと同期がとれているか確認
+- wordpressをインストール
+![image](https://github.com/inakuuun/reverse-proxy-service/assets/101713870/5768781c-bc43-42e9-aa2c-100f178cb19a)
+
+- 登録したユーザーとパスワードでダッシュボードにログイン
+![image](https://github.com/inakuuun/reverse-proxy-service/assets/101713870/63fc5e8b-c9c9-4e16-a1a1-3d1905d47dd9)
+
+1. dbコンテナのbashシェルを実行  
+`docker compose exec db bash`
+
+1. mysqlにログイン  
+`mysql -u root -p`
+
+1. ログインパスワードを入力  
+compose.ymlファイルで定義されている`MYSQL_ROOT_PASSWORD`の値
+
+1. databaseの確認  
+`show databases;`
+
+1. 使用するデータベースの指定  
+`use wordpress;`
+
+1. テーブルの中身を確認  
+`show tables;`
+
+1～6までの一連の流れは以下の通り
+  ![image](https://github.com/inakuuun/reverse-proxy-service/assets/101713870/0f24333d-3d5e-4703-875b-3e8ed0ad4888)
