@@ -6,7 +6,7 @@
 `git clone -b vol.1 git@github.com:inakuuun/create-vps.git`
 
 ## wordpressのコンテナを起動 
-- 前に実行したときのコンテナがある場合はコンテナを削除
+- 前に実行したときのコンテナがある場合はコンテナを削除  
 `docker compose down`
 
 - コンテナを起動  
