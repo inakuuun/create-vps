@@ -55,4 +55,4 @@ create-vps
 ```
 
 ## 起動したwordpressにアクセス  
-- https://wordpress.example.com
+- https://localhost
