@@ -3,8 +3,8 @@
 - リクエストに応じたサーバーの選択
 
 ## 事前準備
-- vol.2ブランチをローカルにクローン  
-`git clone -b vol.2 git@github.com:inakuuun/create-vps.git`
+- リポジトリをローカルにクローン  
+`git clone git@github.com:inakuuun/create-vps.git`
 
 - クローンしたディレクトリへ移動  
 `cd create-vps`
