@@ -60,3 +60,5 @@ create-vps
 
 ## 起動したwordpressにアクセス  
 - https://localhost
+![image](https://github.com/inakuuun/create-vps/assets/101713870/246cac26-6e14-42ca-a9c3-16c8dba1bc05)
+
