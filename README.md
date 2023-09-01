@@ -15,6 +15,7 @@ https://qiita.com/Islanders-Treasure0969/items/017cb9b6896ccf28c33e
 
 - HTTPSポータルを参照
   - https://github.com/SteveLTN/https-portal
+
 HTTPポータルは、サーバー構築におけるSSH接続を行うために利用。
 
 ## 事前準備
