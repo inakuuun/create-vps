@@ -43,7 +43,7 @@ reverse-proxy-service
 ```
 
 - hostsファイル情報の変更
-  - WindowsのWSLを使用したDocker環境の場合
+  - WindowsのWSLを使用したDocker環境の場合 <= ローカルのホストにドメインを設定
     - 参考サイト
     https://www.netassist.ne.jp/techblog/13744/
     - `C:\Windows\System32\drivers\etc` 配下の `hosts` ファイルに下記を追記
