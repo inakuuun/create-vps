@@ -18,7 +18,7 @@ https://qiita.com/Islanders-Treasure0969/items/017cb9b6896ccf28c33e
 
 HTTPポータルは、サーバー構築におけるSSH接続を行うために利用。
 
-## 起動手順
+# 起動手順
 - リポジトリをローカルにクローン  
 `git clone git@github.com:inakuuun/reverse-proxy-service.git`
 
