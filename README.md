@@ -55,7 +55,7 @@ reverse-proxy-service
         ```
 
   - linuxの場合
-    - `/etc/host`ファイルに下記を追記
+    - `/etc/hosts`ファイルに下記を追記
 
         ```
         # reverse-proxy-service
