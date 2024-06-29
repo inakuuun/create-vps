@@ -49,6 +49,7 @@ reverse-proxy-service
     - `C:\Windows\System32\drivers\etc` 配下の `hosts` ファイルに下記を追記
   
         ```
+        # reverse-proxy-service
         127.0.0.1 wordpress.example.com
         127.0.0.1 nginx.example.com
         ```
@@ -57,6 +58,7 @@ reverse-proxy-service
     - `/etc/host`ファイルに下記を追記
 
         ```
+        # reverse-proxy-service
         127.0.0.1 wordpress.example.com
         127.0.0.1 nginx.example.com
         ```
