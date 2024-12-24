@@ -115,6 +115,10 @@ reverse-proxy-service
 - wordpressをインストール
 ![image](https://github.com/inakuuun/reverse-proxy-service/assets/101713870/5768781c-bc43-42e9-aa2c-100f178cb19a)
 
+サイトのタイトル: reverse-proxy-service
+
+ユーザ名: x
+
 - 登録したユーザーとパスワードでダッシュボードにログイン
 ![image](https://github.com/inakuuun/reverse-proxy-service/assets/101713870/63fc5e8b-c9c9-4e16-a1a1-3d1905d47dd9)
 
